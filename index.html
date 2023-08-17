@@ -6,35 +6,50 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 <link href="css/styles.css" rel="stylesheet" />
 <!link href='css/font-awesome.min.css' rel="stylesheet" />
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
 </style>
+
 </head>
 <body class="w3-light-grey">
+  
 
 <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
-
-  <!-- The Grid -->
-  <div class="w3-row-padding">
   
+  <!-- NAV Bar top-->
+
+  <div class="w3-top ">
+  <div class="w3-bar  w3-center w3-card-4 w3-light-grey  ">
+    <a href="#Home" class="w3-bar-item w3-button w3-teal  ">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-green">Experience</a>
+    <a href="#Education" class="w3-bar-item w3-button w3-hover-green">Education</a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-green">Conferences</a>
+  </div> 
+  </div>
+  <!-- The Grid -->
+  
+  <div class="w3-row-padding w3-padding-top-64">
+    
     <!-- Left Column -->
-    <div class="w3-third">
+    <div class="w3-quarter" id="Home">
     
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container">
-          <img src="assets/Cover2.png" style="width:100% ; background-color:rgb(233, 230, 230) " alt="Shahid">
+          <img src="assets/Cover2.png" style="width:100% ; background-color:rgb(240, 239, 239) " alt="Shahid">
           <div class="w3-display-topleft w3-container w3-text-black">
-            <h2>Muhammad Shahid Ashraf</h2>
+            <!--<h2>Muhammad Shahid Ashraf</h2>-->
           </div>
         </div>
         <div class="w3-container">
+          <p class="w3-large"><b><i class="fa fa-address-book fa-fw w3-margin-right w3-text-teal"></i>Muhammad Shahid Ashraf</b></p>
           <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Researcher Mathematics </p>
           <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Karachi, Pakistan </p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>mshahash@gmail.com</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="" target="_blank">mshahash@hotmail.com</a></p>
           <p><i class="fa fa-university fa-fw w3-margin-right w3-large w3-text-teal"></i>SMCS, IBA Karachi</p>
           <p><i class="fa fa-institution fa-fw w3-margin-right w3-large w3-text-teal"></i>NUCES, FAST Karachi</p>
           <hr>
@@ -147,9 +162,9 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     </div>
 
     <!-- Right Column -->
-    <div class="w3-twothird">
+    <div class="w3-threequarter">
     
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
+      <div class="w3-container w3-card w3-white ">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Lecturer, NUCES FAST, Karachi</b></h5>
@@ -187,14 +202,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
             <li>Students track and exam schedule management. </li>
             <li>Maintenance of Servers and Client Software.</li>
           </ul>
-           
-            
-            <br>
-        </div>
+         </div>
       </div>
-
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+      <div class="w3-container w3-card w3-white" id="Education">
+        <h2 class="w3-text-grey "><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>School of Mathematics & Computer Science, IBA Karachi</b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017 - </h6>
@@ -219,14 +230,63 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         </div>
       </div>
 
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-window-restore fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Conferences</h2>
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-window-restore fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Conferences/Workshops</h2>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>IWR-CIIT Joint Workshop</b></h5>
           <p>IWR-CIIT Joint Workshop on Numerical Solutions of Partial Differential Equations (DUNE) in collaboration with University of Heidelberg held in COMSATS Islamabad campus.</p>
           <hr>
         </div>
-        
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b> 2021 CRM(Centre de recherches mathématiques) Summer School </b></h5>
+          <p> Solving large systems efficiently in multiphysics numerical simulations.Centre de recherches mathématiques (CRM), Pavillon André-Aisenstadt - Université de Montréal.</p>
+          <hr>
+          
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b> Chemnitz Finite Element Symposium 2021 </b></h5>
+          <p>The symposium is devoted to all aspects of finite elements and related methods for solving partial differential equations. The topics include but are not limited to: scientific computing, mechanics/applications, inverse problems and optimization with PDEs, uncertainty quantification.
+
+            This year we particularly encourage talks on
+            
+                </p>
+
+                <p>This year we particularly encourage talks on</p>
+                <ul >
+                <li>inverse problems
+                </li><li>discontinuous Galerkin methods
+                </li><li>nonlinear PDEs
+                </li><li>adaptivity
+                </li></ul>
+          <hr>
+          
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b> Computational Biology Workshop at Habib University 2017 </b></h5>
+          <p>This workshop provides an introduction to some of the fundamental techniques in Computational Biology. It starts with a brief introduction to Biology and then moves on to introduce some of the key topics in Computational Biology including state-of-the-art research areas in the field.</p>
+          <hr>
+          
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Habib University - QISS 2016 </b></h5>
+          <p> Quantum Information Summer School 2016 at Habib University,Quantum Information and Cryptography with implementations by Dr. Barry Sanders(University of Calgary)and Dr. Sabieh Anwar(LUMS).</p>
+          <hr>
+          
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b> School - Fundamentals and Practice of Finite Elements</b></h5>
+          <p>School - Fundamentals and Practice of Finite Elements Henri Lebesgue Centre De Mathematics Universit de Rennes 1 (with implementation in XLiFE++).</p>
+          <p> This school combines high-level courses on theoretical aspects of finite elements, with more practical implementation issues via an open source C++ library</p>
+          <hr>
+          
+        </div>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b> T </b></h5>
+          <p>U</p>
+          <hr>
+          
+        </div>
       </div>
 
     <!-- End Right Column -->
@@ -240,12 +300,13 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
 <footer class="w3-container w3-teal w3-center w3-margin-top">
   <p>Find me on social media.</p>
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-github w3-hover-opacity"></i>
-  <i class="fa fa-slack w3-hover-opacity"></i>
-  <i class="fa fa-reddit -p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <i class="fa-brands  fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa-brands  fa-github w3-hover-opacity"></i>
+  <i class="fa-brands  fa-slack w3-hover-opacity"></i>
+  <i class="fa-brands fa-discord  w3-hover-opacity"></i>
+  <i class="fa-brands fa-twitter w3-hover-opacity"></i>
+  <i class="fa-brands  fa-linkedin w3-hover-opacity"></i>
+  <i class="fa-brands fa-faceb"></i>
   <p>Powered by <a href="" target="_blank">Mozart</a></p>
 </footer>
 
